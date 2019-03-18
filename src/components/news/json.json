@@ -1,0 +1,40 @@
+{
+ 
+    "state": "0",
+   
+  
+      "messcount": [
+        {
+          "star_level": 10,
+          "level": "优质",
+          "area_city": "市辖区",
+          "sex": "F",
+          "img": "http://www.tbqq.com.cn/uploadFile/tmp/2018-06/2018-06-09/91828c035328447697317059b1b14435.jpeg",
+          "weight": 96,
+          "is_coll_black": 3,
+          "grade": 4.9375,
+          "name": "monica",
+          "time": "2018-05-12 23:11:16",
+          "title": "北京市",
+          "id": 1502,
+          "count": 30
+        },
+        {
+          "star_level": 10,
+          "level": "优质",
+          "area_city": "临汾市",
+          "sex": "F",
+          "img": "http://www.tbqq.com.cn/uploadFile/tmp/2018-03/2018-03-30/6290730a84104ea9a64172e064638bbd.jpeg",
+          "weight": 95,
+          "is_coll_black": null,
+          "grade": 4.9899,
+          "name": "可可里",
+          "time": "2017-05-12 23:11:16",
+          "id": 2521,
+          "count": 23
+        }
+      
+      ]
+    
+  
+  }

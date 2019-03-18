@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="./lib/vue-2.4.0.js"></script>
+    <script src="./lib/vue-resource-1.3.4.js"></script>
+    <STYLE>
+        div{
+            width: 500px;
+            height: 600px;
+            background-color: pink;
+        }
+        .xz{
+            width: 120px;
+            height: 180px;
+            background-color:pink;
+            display: inline-block;
+            border: 1px slateblue solid;
+
+        }
+        .xz img{
+            width: 100%;
+            height: 100%;
+        }
+    </STYLE>
+</head>
+<body>
+<div id="app" >
+ <ul>
+     <li v-for="(item,i) in list" :key="item.i">
+         <p>名字：{{item.name}} <span>年龄：{{item.age}}</span></p>
+     </li>
+
+ </ul>
+    <br>
+    <ul>
+        <li v-for="(item,i) in arr" :key="item.id">
+            <p>名字：{{item.name}} <span>年龄：{{item.age}}</span></p>
+            <div class="xz" :style="{ 'background-image': 'url(' + item.head_icon+ ')' }">
+
+                <!--<img :src="item.head_icon">-->
+            </div>
+        </li>
+
+    </ul>
+</div>
+<script>
+    var vm=new Vue({
+        el:'#app',
+        data:{
+            list:[{name:'张三',age:12},{name:'李四',age:14},{name:'王子',age:15},],
+        arr:[]
+        },
+
+        mounted () {
+            this.getGoodsList()
+        },
+        methods: {
+            getGoodsList () {
+                this.$http.get('./js.json').then((res) => {
+                    var result = res.body.data.list
+                    console.log(result)
+                    this.arr= result;
+
+
+                })
+            }
+        }
+    })
+</script>
+</body>
+</html>

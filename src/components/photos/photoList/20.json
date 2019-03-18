@@ -1,0 +1,34 @@
+{
+  "msg": "SUCCESS",
+  "code": "0",
+  "data": {
+    "totalRow": 7095,
+    "pageNumber": 1,
+    "firstPage": true,
+    "lastPage": false,
+    "totalPage": 355,
+    "pageSize": 20,
+    "list": [
+    
+     
+     
+   
+      {
+        "star_level": 10,
+        "level": "优质",
+        "area_city": "佛山市",
+        "sex": "M",
+        "head_icon": "http://www.tbqq.com.cn/uploadFile/tmp/2018-05/2018-05-18/c9e829acbfa04967b4d4ad3dd073498b.jpeg",
+        "weight": 60,
+        "is_coll_black": null,
+        "grade": 5.0000,
+        "name": "haohao",
+        "stature": 172,
+        "area_province": "广东省",
+        "id": 5926,
+        "age": 22
+      }
+    ]
+  },
+  "page": null
+}

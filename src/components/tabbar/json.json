@@ -1,0 +1,41 @@
+{
+ 
+    "state": "0",
+   
+  
+      "message": [
+        {
+          "star_level": 10,
+          "level": "优质",
+          "area_city": "市辖区",
+          "sex": "F",
+          "head_icon": "http://www.tbqq.com.cn/uploadFile/tmp/2018-06/2018-06-09/91828c035328447697317059b1b14435.jpeg",
+          "weight": 96,
+          "is_coll_black": 3,
+          "grade": 4.9375,
+          "name": "monica",
+          "stature": 165,
+          "area_province": "北京市",
+          "id": 1502,
+          "age": 30
+        },
+        {
+          "star_level": 10,
+          "level": "优质",
+          "area_city": "临汾市",
+          "sex": "F",
+          "head_icon": "http://www.tbqq.com.cn/uploadFile/tmp/2018-03/2018-03-30/6290730a84104ea9a64172e064638bbd.jpeg",
+          "weight": 95,
+          "is_coll_black": null,
+          "grade": 4.9899,
+          "name": "可可里",
+          "stature": 158,
+          "area_province": "山西省",
+          "id": 2521,
+          "age": 23
+        }
+      
+      ]
+    
+  
+  }
